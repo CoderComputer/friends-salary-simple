@@ -15,6 +15,7 @@ import sajalAli from './images/sajal ali.jpg';
 import sayem from './images/sayem.jpg'
 import tisa from './images/Tanjin-Tisha-1910281238-1910281321.jpg';
 import tazid from './images/tazid.jpg'
+import rohan from './images/rohan.jpg'
 function App() {
   const [fnd, setFnd] =useState([]);
   const handleAdd = (salary) =>{
@@ -35,6 +36,7 @@ function App() {
             <Friends handleAdd = {handleAdd} name={'Gh Joy'} username={"gh_joy46415"} email = {'example@example.com'} phone = {'+124 0185 0654 5744'} website = {'www.faltu.com'} image={joy} salary={'4598.68'}></Friends>
           <Friends handleAdd = {handleAdd} name={'Sourov Ahsan'} username={"crushkur_sourov"} email = {'example@example.com'} phone = {'+124 0185 0654 5744'} website = {'www.faltu.com'} image={sourov} salary={'3052.24'}></Friends>
           <Friends handleAdd = {handleAdd} name={'Rafiqul Islam Mosharraf'} username={'mosharraf2024'} email={'example@domain.com'} phone = {'+124 0185 0654 5744'} website = {'www.faltu.com'} image={mama} salary={'5000'}></Friends>
+          <Friends handleAdd = {handleAdd} name={'Mosaddek Hossain Rohan'} username={'affi_abdullah'} email={'example@domain.com'} phone = {'+124 0185 0654 5744'} website = {'www.faltu.com'} image={rohan} salary={'5584.24'}></Friends>
           <Friends handleAdd = {handleAdd} name={'Mehzabin Choudhuri'} username={'jatir_crush'} email={'example@domain.com'} phone = {'+124 0185 0654 5744'} website = {'www.faltu.com'} image={mehzabin} salary={'4584.24'}></Friends>
           <Friends handleAdd = {handleAdd} name={'Maharab Hossain Mredul'} username={'mredul1475'} email={'example@domain.com'} phone = {'+124 0185 0654 5744'} website = {'www.faltu.com'} image={mredul}  salary={'1012.99'}></Friends>
           <Friends handleAdd = {handleAdd} name={'Muniba Mazari'} username={'muniba_mazari'} email={'example@domain.com'} phone = {'+124 0185 0654 5744'} website = {'www.faltu.com'} image={mazari}  salary={'5500'}></Friends>
@@ -49,7 +51,7 @@ function App() {
           <div className = "summary">
             <h2>Summary</h2>
             <h3>Total Friend : {fnd.length} </h3>
-            <h3>Total Salary: {parseFloat(total)}</h3>
+            <h3>Total Salary: {parseFloat(total).toFixed(2)}</h3>
           </div>
         </div>
     </div>
