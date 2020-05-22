@@ -1,0 +1,33 @@
+.content{
+    width: 1170px;
+    margin: auto;
+}
+.container{
+    width: 800px;
+    display: flex;
+}
+.profic_pic img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+.details-container{
+    margin-left: 50px;
+}
+.profile{
+    background-color: rgb(34, 95, 226);
+    width: 800px;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+}
+.addFriend{
+    border: none;
+    margin-top: 15px;
+}
+.addFriend:hover{
+    box-shadow: 2px 1px 2px rgb(73, 73, 73);
+}

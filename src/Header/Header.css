@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(34, 95, 226);
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+.header h1{
+    padding: 15px;
+    font-size: 50px;
+}
+.header h3{
+    font-size: 30px;
+}
+.search{
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    margin: 25px 15px 0 15px
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(56, 119, 253);
+    color: white;
+}
